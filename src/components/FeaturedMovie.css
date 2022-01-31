@@ -39,6 +39,9 @@
     font-size: 20px;
     color: #999;
     max-width: 40%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap
 }
 
 .featured--buttons {
@@ -74,4 +77,5 @@
     margin-top: 15px;
     font-size: 18px;
     color: #999;
+    padding: 10px;
 }
